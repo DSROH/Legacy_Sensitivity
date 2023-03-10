@@ -7,7 +7,6 @@ import tkinter.scrolledtext as st
 import threading
 import Function as func
 
-# %%
 Win_GUI = ttkbst.Window(title="LTE Sensitivity Drawing", themename="cosmo")
 Win_GUI.attributes("-topmost", True)
 Win_GUI.geometry("865x510")
@@ -50,3 +49,5 @@ Win_GUI.bind(
 Win_GUI.resizable(False, False)
 Win_GUI.focus()
 Win_GUI.mainloop()
+
+
