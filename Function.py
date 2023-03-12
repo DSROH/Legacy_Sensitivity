@@ -345,6 +345,7 @@ def LTE_Sens_drawing(Win_GUI, Entry_file_path, text_area):
 
         open_file(f_name)
         Win_GUI.destroy()
+        Win_GUI.quit()
 
     except Exception as e:
         msg.showwarning("Warning", e)
