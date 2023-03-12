@@ -46,11 +46,11 @@ Win_GUI.bind(
     ],
 )
 
+
 def Win_GUI_close():
     Win_GUI.quit()
+
 
 Win_GUI.resizable(False, False)
 Win_GUI.focus()
 Win_GUI.mainloop()
-
-
